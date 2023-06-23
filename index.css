@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    background: linear-gradient(to right,  navy, rgb(27, 26, 26));
+}
+
+.bn{
+    color: white;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+main section#cartelas{
+    width: 70%;
+    height: 76vh;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section#numeros {
+    width:30%;
+    height: 83vh;
+    background-color: rgb(209, 209, 209);   
+    display: flex;
+    justify-content: center;
+}
+
+section#cartelas div{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+button{
+    height: 30px;
+    width: 120px;
+}
+
+section#numeros h2{
+    margin-top: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 30px;
+    background: linear-gradient(to right,  navy, rgb(27, 26, 26));
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    
+  }
+  
+  .gc, .rj .cartela {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    margin: 10px;
+  }
+  
+ 
+  
+
+  .gc,
+.rj {
+  display: inline-flex; /* Alteração: usamos display: flex */
+  align-items: center; /* Nova propriedade: centraliza verticalmente */
+  justify-content: center; /* Nova propriedade: centraliza horizontalmente */
+  padding: 10px 20px;
+  background-color: #0e0bc0;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: "Comic Sans MS", cursive;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.gc:hover,
+.rj:hover {
+  background-color: #FF9800;
+}
+
+  #espaco_cartelas table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+#espaco_cartelas th {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+#espaco_cartelas td {
+  border: 1px solid #333333;
+  padding: 10px;
+  text-align: center;
+}
+
+.sorteado {
+  background-color: #ff0000;
+  color: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
